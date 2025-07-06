@@ -822,18 +822,20 @@ Banner Style
   transition: all .3s;
 }
 
-.main-banner .owl-nav .owl-prev i {
+.main-banner .owl-nav .owl-prev span {
   position: absolute;
   left: 45px;
+  font-size: 40px;
 }
 
-.main-banner .owl-nav .owl-next i {
+.main-banner .owl-nav .owl-next span {
   position: absolute;
   right: 45px;
+  font-size: 40px;
 }
 
-.main-banner .owl-nav .owl-prev i:hover,
-.main-banner .owl-nav .owl-next i:hover {
+.main-banner .owl-nav .owl-prev span:hover,
+.main-banner .owl-nav .owl-next span:hover {
   opacity: 1;
   background-color: rgba(255, 255, 255, 0.5);
 }
